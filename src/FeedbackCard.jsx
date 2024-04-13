@@ -1,8 +1,9 @@
 import React from 'react';
 import './FeedbackCard.css'; // Import your CSS file
+import SusImg from 'src/assets/Suspicious.webp'
 
 function FeedbackCard() {
-  const SusImg = 'src/assets/Suspicious.webp';
+  // const SusImg = 'src/assets/Suspicious.webp';
   const FeedbackImg = 'src/assets/Feedback.webp'; // Replace with your actual image URL
 
   return (
