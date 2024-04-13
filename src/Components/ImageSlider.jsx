@@ -5,7 +5,7 @@ import a from '/src/assets/Frame1.png'
 import b from '/src/assets/Frame2.png'
 import c from '/src/assets/Frame3.png'
 import d from '/src/assets/Frame4.png'
-import e from 'src/assets/airportservices.webp'
+import e from '/src/assets/airportservices.webp'
 
 const images = [
   a,
