@@ -33,7 +33,7 @@ function App() {
           <Footer />
           </>
         }></Route>
-        <Route path="/src/assets/stuff/sus.html" element={
+        <Route path="/src/assets/stuff/sus" element={
           <div>hello</div>
         }></Route>
       </Routes>
