@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import './ImageSlider.css';
 
+import a from '/src/assets/Frame1.png'
+import b from '/src/assets/Frame2.png'
+import c from '/src/assets/Frame3.png'
+import d from '/src/assets/Frame4.png'
+import e from 'src/assets/airportservices.webp'
+
 const images = [
-  'src/assets/Frame1.png',
-  'src/assets/Frame2.png',
-  'src/assets/Frame3.png',
-  'src/assets/Frame4.png',
-  'src/assets/airportservices.webp',
-   // Make sure these paths are correct
+  a,
+  b,
+  c,
+  d,
+  e,
 ];
 
 function ImageSlider() {
