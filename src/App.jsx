@@ -26,7 +26,7 @@ function App() {
           <br />
           <br />
           <FlightDetails />
-          <a href="#" className='purple-button' onClick={() => {window.open('src/assets/stuff/sus.html', '_self')}} style={{width: "80%", display: "block", margin: "0 auto", textAlign: "center", textDecoration: "none"}}>Show more...</a>
+          <a href="#" className='purple-button' onClick={() => {window.open('src/assets/stuff/sus', '_self')}} style={{width: "80%", display: "block", margin: "0 auto", textAlign: "center", textDecoration: "none"}}>Show more...</a>
           <br />
           <ExperienceOurAirport />
           <FeedbackCard />
