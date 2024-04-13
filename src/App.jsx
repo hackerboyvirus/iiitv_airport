@@ -6,6 +6,7 @@ import FeedbackCard from './FeedbackCard'
 import Footer from './Components/Footer'
 import LuxuryAd from './Components/LuxuryAd'
 import ExperienceOurAirport from './Components/AirportExp'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import './App.css'
 
@@ -13,21 +14,30 @@ function App() {
   const [count, setCount] = useState(0)
   
   return (
-    <>
-    <Navbar />
-    <ImageSlider />
-    <br />
-    <br />
-    <LuxuryAd />
-    <br />
-    <br />
-    <FlightDetails />
-    <a href="#" className='purple-button' onClick={() => {window.open('src/assets/stuff/sus.html', '_self')}} style={{width: "80%", display: "block", margin: "0 auto", textAlign: "center", textDecoration: "none"}}>Show more...</a>
-    <br />
-    <ExperienceOurAirport />
-    <FeedbackCard />
-    <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={
+          <>
+          <Navbar />
+          <ImageSlider />
+          <br />
+          <br />
+          <LuxuryAd />
+          <br />
+          <br />
+          <FlightDetails />
+          <a href="#" className='purple-button' onClick={() => {window.open('src/assets/stuff/sus.html', '_self')}} style={{width: "80%", display: "block", margin: "0 auto", textAlign: "center", textDecoration: "none"}}>Show more...</a>
+          <br />
+          <ExperienceOurAirport />
+          <FeedbackCard />
+          <Footer />
+          </>
+        }></Route>
+        <Route path="/src/assets/stuff/sus.html" element={
+          <div>hello</div>
+        }></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
