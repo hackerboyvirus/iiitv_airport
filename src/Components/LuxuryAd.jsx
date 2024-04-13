@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LuxAdImg = 'src/assets/luxuryAd.png'
+import LuxAdImg from '/src/assets/luxuryAd.png'
 
 function LuxuryAd() {
   return (
