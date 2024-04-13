@@ -1,6 +1,6 @@
 import React from 'react';
 import './FeedbackCard.css'; // Import your CSS file
-import SusImg from 'src/assets/Suspicious.webp'
+import SusImg from '/src/assets/Suspicious.webp'
 
 function FeedbackCard() {
   // const SusImg = 'src/assets/Suspicious.webp';
